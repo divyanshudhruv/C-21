@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head><title>Bullet And Walls</title>
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+
+    <script src="sketch.js"></script>
+    <!--<div class="loading">
+  <span><b>Unite To Fight COVID-19</b></span>
+</div>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+
+-->
+
+    <a class="play-btn" onclick="alert('Game Is Paused')"></a>
+    <div class="artboard">
+        <div class="button">
+            <div class="links"><a class=" fa fa-github fa-2x" target="_blank"
+                    href="https://github.com/divyanshudhruv"></a><a class=" fa fa-codepen fa-2x" target="_blank"
+                    href="https://codepen.io/divyanshudhruv"></a>
+                <a class=" fa fa-youtube fa-2x" onclick="Swal.fire({
+  icon: 'info',
+  title: 'I Dont Have A Youtube Account',
+  showConfirmButton: false,
+  timer: 1500
+})">
+                </a>
+            </div>
+
+            <div class="overlay"><a>Follow Me</a></div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="content">
+            <div class="top">
+
+
+
+                <a target="_blank" href="https://github.com/divyanshudhruv/"><i class="fa fa-github"></i></a>
+
+                <a target="_blank" href="https://codepen.io/divyanshudhruv"><i class="fa fa-codepen "></i></a>
+
+                <a target="_blank" onclick="Swal.fire({
+  icon: 'info',
+  title: 'I Dont Have A Youtube Account',
+  showConfirmButton: false,
+  timer: 1500
+})"><i class="fa fa-youtube"></i>
+
+                    <a target="_blank" onclick="Swal.fire({
+  title: 'Do you like this game?',
+  showDenyButton: true,
+  showCancelButton: false,
+  confirmButtonText: `Yes`,
+  denyButtonText: `No`,
+  showCloseButton: true
+}).then((result) => {
+  /* Read more about isConfirmed, isDenied below */
+  if (result.isConfirmed) {
+    Swal.fire('Thank You!', '', 'warning')
+  } else if (result.isDenied) {
+    Swal.fire('I will try to solve the issue', '', 'info')
+  }
+})"><i class="fa fa-star"></i></a>
+
+            </div>
+            <div class="bottom"><a>made with <i class="fa fa-heart beat"></i> by <u>Divyanshu Dhruv</u></a></div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
